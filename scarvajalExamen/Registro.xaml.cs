@@ -44,7 +44,7 @@ namespace scarvajalExamen
             string nombre = txtNombre.Text;
             string apellido = txtApellido.Text;            
             int edad = int.Parse(txtEdad.Text);
-            string fecha = dpFecha.ToString();
+            string fecha = dpFecha.Date.ToString();
             string ciudad = pkCiudad.Items[pkCiudad.SelectedIndex];
             string pais = pkPais.Items[pkPais.SelectedIndex];
             double pagoInicial = double.Parse(txtMontoInicial.Text);
